@@ -16,5 +16,12 @@ namespace Day_or_Night.util
         {
             imageToConvert = Image.FromFile(filename);
         }
+
+        public void ConvertToText()
+        {
+            string imageText;
+
+
+        }
     }
 }
