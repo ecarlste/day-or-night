@@ -47,6 +47,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\test\img01day.PNG" />
+    <Content Include="images\test\img02day.PNG" />
+    <Content Include="images\test\img03day.PNG" />
+    <Content Include="images\test\img04day.PNG" />
+    <Content Include="images\test\img05day.PNG" />
+    <Content Include="images\test\img06day.PNG" />
+    <Content Include="images\test\img07day.PNG" />
+    <Content Include="images\test\img08day.PNG" />
+    <Content Include="images\test\img09night.PNG" />
+    <Content Include="images\test\img10night.PNG" />
+    <Content Include="images\test\img11night.PNG" />
+    <Content Include="images\test\img12night.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
