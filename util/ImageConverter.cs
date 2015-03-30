@@ -1,11 +1,11 @@
 ﻿
 using System.Drawing;
 
-namespace Day_or_Night.util
+namespace DayOrNight.util
 {
     class ImageConverter
     {
-        Image imageToConvert;
+        Bitmap imageToConvert;
 
         public ImageConverter()
         {
@@ -14,13 +14,36 @@ namespace Day_or_Night.util
 
         public ImageConverter(string filename)
         {
-            imageToConvert = Image.FromFile(filename);
+            imageToConvert = new Bitmap(filename);
         }
 
         public void ConvertToText()
         {
-            string imageText;
+            string imageText = "";
 
+            Color currentPixel;
+
+            for (int x = 0; x < imageToConvert.Width; x++)
+            {
+                if (x > 0)
+                {
+                    imageText += System.Environment.NewLine;
+                }
+
+                for (int y = 0; y < imageToConvert.Height; y++)
+                {
+                    currentPixel = imageToConvert.GetPixel(x, y);
+
+                    if (y > 0)
+                    {
+                        imageText += " ";
+                    }
+
+                    imageText += currentPixel.B + "," + currentPixel.G + "," + currentPixel.R;
+                }
+            }
+
+            imageText += imageToConvert.GetPixel(0, 0);
 
         }
     }

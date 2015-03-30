@@ -7,7 +7,7 @@
     <ProjectGuid>{691C510E-631A-4A6A-A9C5-C1B6DD6D8AE0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Day_or_Night</RootNamespace>
+    <RootNamespace>DayOrNight</RootNamespace>
     <AssemblyName>Day or Night</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

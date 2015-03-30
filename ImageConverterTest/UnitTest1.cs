@@ -1,5 +1,5 @@
 ﻿
-using Day_or_Night.util;
+using DayOrNight.util;
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
